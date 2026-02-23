@@ -16,12 +16,12 @@ body {
     font-weight: 300;
 }
 
-/* Mobile */
-
+/* Topo */
 .topo {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; /* mobile padrão */
     align-items: center;
+    justify-content: space-around;
     gap: 1rem;
     padding: 1rem;
     border-bottom: 0.5px solid rgb(226, 226, 226);
@@ -47,10 +47,12 @@ body {
     width: 100px;
 }
 
+/* Hero */
 .hero {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
     text-align: center;
     gap: 2rem;
     padding: 2rem;
@@ -69,7 +71,7 @@ body {
 
 .title {
     color: #d80454;
-    font-size: 1.8rem;
+    font-size: 210%;
 }
 
 button {
@@ -87,6 +89,7 @@ button:hover {
     background-color: black;
 }
 
+/* Sections */
 .section {
     display: flex;
     flex-direction: column;
@@ -171,6 +174,7 @@ button:hover {
     color: black;
 }
 
+/* Footer */
 .footer {
     padding: 2rem;
     display: flex;
@@ -191,7 +195,6 @@ button:hover {
 }
 
 /* Desktop */
-
 @media (min-width: 768px) {
 
     .topo {
@@ -223,5 +226,4 @@ button:hover {
     .line {
         width: 40%;
     }
-
 }
